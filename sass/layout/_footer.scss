@@ -18,7 +18,20 @@
         padding: 0px;
         &__img {
             max-width: 320px;
-            margin-right: 25px;
+            margin: auto;
+        }
+    }
+}
+@media only screen and(max-width:$breakpoint-tablet) {
+    .footer {
+        flex-direction: column;
+
+        &__img {
+            max-width: 320px;
+        }
+        &__right {
+            margin: auto;
+            max-width: 380px;
         }
     }
 }

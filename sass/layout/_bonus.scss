@@ -39,3 +39,29 @@
         }
     }
 }
+
+@media only screen and(max-width:$breakpoint-tablet) {
+    .bonus {
+        padding-left: 0px;
+        padding-right: 0px;
+        &__left {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__text {
+            padding-left: 0px;
+        }
+        &__right {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__img-1 {
+            padding-right: 0px;
+        }
+        &__img-2 {
+            padding-left: 0px;
+        }
+    }
+}
