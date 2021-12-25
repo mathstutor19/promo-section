@@ -1,0 +1,21 @@
+.offer {
+    &__left {
+        display: flex;
+    }
+    &__img {
+        max-width: 100%;
+        &-1 {
+            padding-right: 50px;
+        }
+        &-2 {
+            padding-left: 50px;
+        }
+    }
+}
+@media only screen and( max-width:$breakpoint-desktop) {
+    .offer {
+        &__left-1 {
+            flex-direction: row-reverse;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.mt-l {
+    margin-top: 250px !important;
+}
+
+.mt-m {
+    margin-top: 60px;
+}
+
+.mt-s {
+    margin-top: 30px;
+}
+
+.mt-x {
+    margin-top: 15px;
+}
+@media only screen and( max-width:$breakpoint-desktop) {
+    .mt-l {
+        margin-top: 150px !important;
+    }
+
+    .mt-m {
+        margin-top: 40px;
+    }
+
+    .mt-s {
+        margin-top: 20px;
+    }
+
+    .mt-x {
+        margin-top: 15px;
+    }
+}
+@media only screen and(max-width:$breakpoint-tablet) {
+    .mt-l {
+        margin-top: 100px !important;
+    }
+}

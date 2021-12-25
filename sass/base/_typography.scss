@@ -1,0 +1,21 @@
+.heading-one {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 43px;
+    &-bold {
+        font-weight: 500;
+    }
+}
+
+.heading-three {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.paragraphy {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}

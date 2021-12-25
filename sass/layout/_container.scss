@@ -1,0 +1,15 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+@media only screen and( max-width:$breakpoint-desktop) {
+    .container {
+        width: 728px;
+    }
+}
+@media only screen and(max-width:$breakpoint-tablet) {
+    .container {
+        width: 440px;
+        background-color: yellow;
+    }
+}
