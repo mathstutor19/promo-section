@@ -130,7 +130,7 @@ a {
 @media only screen and (max-width: 480px) {
   .card__four {
     margin: auto;
-    width: calc((100% - 40px));
+    width: 100%;
     padding: 30px;
   }
 }
