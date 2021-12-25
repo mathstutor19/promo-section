@@ -54,3 +54,12 @@
         }
     }
 }
+@media only screen and(max-width:$breakpoint-mobile-large) {
+    .card {
+        &__four {
+            margin: auto;
+            width: calc((100% - 40px));
+            padding: 30px;
+        }
+    }
+}

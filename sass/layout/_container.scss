@@ -13,3 +13,9 @@
         background-color: yellow;
     }
 }
+@media only screen and(max-width:$breakpoint-mobile-large) {
+    .container {
+        width: 320px;
+        background-color: rgba(0, 255, 55, 0.589);
+    }
+}

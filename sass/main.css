@@ -127,6 +127,14 @@ a {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .card__four {
+    margin: auto;
+    width: calc((100% - 40px));
+    padding: 30px;
+  }
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,6 +168,13 @@ a {
   .container {
     width: 440px;
     background-color: yellow;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 320px;
+    background-color: rgba(0, 255, 55, 0.589);
   }
 }
 
