@@ -19,3 +19,29 @@
         }
     }
 }
+@media only screen and(max-width:$breakpoint-tablet) {
+    .offer {
+        &__img {
+            &-1 {
+                padding-right: 0px;
+                max-width: 170px;
+                margin: auto;
+            }
+            &-2 {
+                padding-left: 0px;
+                max-width: 170px;
+                margin: auto;
+            }
+        }
+        &__left-1 {
+            flex-direction: column-reverse;
+            padding: 30px;
+            text-align: center;
+        }
+        &__left {
+            flex-direction: column-reverse;
+            padding: 30px;
+            text-align: center;
+        }
+    }
+}

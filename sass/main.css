@@ -310,6 +310,35 @@ a {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .offer__img-1 {
+    padding-right: 0px;
+    max-width: 170px;
+    margin: auto;
+  }
+  .offer__img-2 {
+    padding-left: 0px;
+    max-width: 170px;
+    margin: auto;
+  }
+  .offer__left-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 30px;
+    text-align: center;
+  }
+  .offer__left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 30px;
+    text-align: center;
+  }
+}
+
 .mt-l {
   margin-top: 250px !important;
 }
